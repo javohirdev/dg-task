@@ -1,0 +1,28 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.texts{ /**textlarimizni o'rab turgan div ele*/
+    padding: 100px;
+}
+.texts h1{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.texts p{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+#scrollbarProgress {
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 9px;
+    background-image: linear-gradient(to right, #FF0099, #493240);
+}

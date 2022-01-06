@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(196, 227, 240);
+}
+
+.results{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+.general{
+    padding: 50px 200px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 0 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
