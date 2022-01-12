@@ -1,0 +1,40 @@
+body{
+   background-image: linear-gradient(to right, #c31432, #240b36); 
+}
+.result{
+    width: 330px;
+    height: 330px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 5% auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.formArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search{
+    width: 50%;
+    padding: 15px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+.search:focus{
+    outline: none!important;
+}
+
+.info > img{
+    width: 40%;
+}
+.locationName > h2{
+    font-size: 35px;
+}
+.details{
+    font-size: 25px;
+}
