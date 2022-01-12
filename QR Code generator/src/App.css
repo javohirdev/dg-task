@@ -1,0 +1,77 @@
+.formSection{
+    display: flex;
+    justify-content: center;
+}
+.formSection > input{
+    font-size: 20px;
+    padding: 0 1rem;
+    line-height: 2rem;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.formSection > button{
+    font-size: 20px;
+    padding: 0 1rem;
+    background-color: #000;
+    color: #00ffff;
+    border-radius: 50px;
+}
+
+.themeText{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.results{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.card{
+    border: none!important;
+}
+.card > a > span > .resultImage{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.card > a > .username{
+    text-align: center;
+    font-family: system-ui, sans-serif;
+}
+
+/**RESPONSIVE**/
+
+@media screen and (max-width: 768px) {
+    .themeText{
+        font-size: 25px;
+    }
+    .results{
+        grid-template-columns: auto auto;
+    }
+    .resultImage{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 501px) {
+    .themeText{
+        font-size: 22px;
+    }
+    .formSection > input{
+        width: 50%;
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .formSection > button{
+        font-size: 15px;
+    }
+    .results{
+        grid-template-columns: auto;
+        padding: 25px;
+    }
+    .username{
+        font-size: 15px;
+    }
+}
